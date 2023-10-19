@@ -1,0 +1,14 @@
+.title {
+  text-align: start;
+  justify-content: start;
+  align-items: flex-start;
+}
+.title p {
+  font-size: 50px;
+  color: #28649c;
+}
+@media (max-width: 750px) {
+  .title p {
+    font-size: 35px;
+  }
+}

@@ -1,0 +1,14 @@
+.description {
+  text-align: start;
+  justify-content: start;
+  align-items: flex-start;
+}
+.description p {
+  font-size: 30px;
+  color: #28649c;
+}
+@media (max-width: 750px) {
+  .description p {
+    font-size: 23px;
+  }
+}

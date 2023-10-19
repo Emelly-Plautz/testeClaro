@@ -1,0 +1,16 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ebf5ff;
+}
+.content {
+  width: 50%;
+}
+@media (max-width: 750px) {
+  .content {
+    width: 90%;
+  }
+}
